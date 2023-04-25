@@ -67,6 +67,16 @@ ul
 	text-align:justify;
 }
 
+.info
+{
+ max-width:770px; 
+}
+
+.education
+{
+ max-width:770px; 
+}
+
 .infobox
 {
     box-shadow: 0 3px 10px 0 rgba(0,0,0,.1);
