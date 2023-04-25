@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+
+div
+{
+    border-radius: 15px;
+}
+
+section
+{
+    font-family: 'Varela Round', sans-serif;
+    position: fixed;
+    border-radius: 5px;
+    height:200px;
+    width: 96%;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,.1);
+    padding: 15px;
+    background-color: #fff;  
+}
+
+.container
+{
+    float: right;
+    margin-top: 250px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-right:10px;
+    width: 90%;
+    background-color: #3498bb;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.left ,
+.right 
+{
+    vertical-align: top;
+    display: inline-block;
+    padding-top:30px;
+}
+
+.left 
+{
+    width: 60%;    
+}
+
+ul
+{
+	max-width:570px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hover li:hover
+{
+	background:#3498bb;
+}
+
+.hover li
+{
+	background:rgba(0,0,0,.7);
+	border-radius:5px;
+	color:#FFF;
+	display:inline-block;
+	list-style:none;
+    font-family: 'Open Sans', sans-serif;
+	margin:20px 15px 0 0;
+	padding:10px;
+	text-align:justify;
+}
+
+.infobox
+{
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,.1);
+    margin-bottom: 30px;
+    padding: 15px 30px 30px 30px;
+    background-color: #fff;
+}
