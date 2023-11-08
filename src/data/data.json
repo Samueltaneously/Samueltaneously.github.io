@@ -1,0 +1,61 @@
+{
+  "Header": {
+    "title": "Samuel Hali'a Nelson",
+    "role": "Full-Stack Software Engineer",
+    "paragraph": "Welcome! Have a look around to learn more about me, and see some of the cool things I've made!"
+  },
+  "About": {
+    "paragraph": "The most important thing to know, is that I love developing solutions to problems. I am a first-generation college graduate, of mixed ancestry including AAPI and Native Hawaiian descent. I’m a tinkerer and self-starter who loves making things. I am pursuing a career in tech to follow a longstanding passion for creativity and technology, but primarily to have a meaningful impact on others with similar passions.",
+    "Why": [
+      "Javascript",
+      "React.js",
+      "Redux.js",
+      "Node.js"
+    ],
+    "Why2": [
+      "PostgreSQL",
+      "Material UI",
+      "HTML",
+      "CSS"
+    ]
+  },
+  "Portfolio": [
+    {
+      "title": "Dodgeball Stat Tracker",
+      "largeImage": "img/portfolio/DodgeballStatTrackerDemo_large.gif",
+      "smallImage": "img/portfolio/DodgeballStatTrackerDemo_small.gif",
+      "location": "https://github.com/willbuck/dodgeball-stat-tracker"
+    },
+    {
+      "title": "SomniScript",
+      "largeImage": "img/portfolio/SomniScriptDemo_large.gif",
+      "smallImage": "img/portfolio/SomniScriptDemo_small.gif",
+      "location": "https://github.com/Samueltaneously/prime-solo-project"
+    }
+  ],
+  "Experience": [
+    {
+      "img": "img/experiences/PrimeLogo.png",
+      "text": "✔ Developed and deployed full-stack web applications, with modern back-end and front-end technologies for state management and data storage & retrieval.⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ✔ Leveraged Agile methodology framework and pair programming sessions, fostering teamwork and problem-solving skills throughout the full software development lifecycle (SDLC).⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ✔ Designed and utilized RESTful APIs for data communication in full-stack applications.",
+      "name": "Prime Digital Academy, Full-Stack Software Engineering Certification (2023) ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
+    },
+    {
+      "img": "img/experiences/Wells.jpg",
+      "text": "✔ Utilized excel and proprietary database, ran daily analytics reports, analyzed the data of thousands of client accounts, reviewed mortgage collateral documents, and coordinated with internal Wells Fargo teams.⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ✔ Cultivated and strengthened working relationships with business clients of Wells Fargo, both small businesses and large corporate clients.",
+      "name": "Wells Fargo, Account Associate (2018-2022) ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
+    },
+    {
+      "img": "img/experiences/UofM.jpg",
+      "text": "Concentration on political theory, public policy, and quantitative analysis. Additional study of leadership methods, practice, and psychology.",
+      "name": "University of Minnesota, Bachelor of Arts (2014) ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
+    }
+  ],
+  "Contact": {
+    "address": "Greater Twin Cities Area, MN ",
+    "phone": "+1 123 456 1234",
+    "email": "samuel.h.nelson@protonmail.com",
+    "facebook": "https://github.com/Samueltaneously",
+    "twitter": "https://www.linkedin.com/in/samuelhnelson",
+    "youtube": "youtube.com"
+  }
+}

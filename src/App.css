@@ -1,0 +1,13 @@
+@media screen and (max-width: 400px) {
+
+  #about,
+  #experience,
+  #contact,
+  #footer {
+    width: 111%;
+  }
+
+  #portfolio {
+    width: 110%;
+  }
+}
