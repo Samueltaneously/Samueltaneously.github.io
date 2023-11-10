@@ -626,6 +626,33 @@ label {
   background: #fff;
 }
 
+.popup-alert {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #608dfd;
+  color: #fff;
+  padding: 15px;
+  padding-right: 40px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+
+.close-button {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  color: #fff;
+}
+
 /* Footer Section*/
 #footer {
   background: #f6f6f6;
