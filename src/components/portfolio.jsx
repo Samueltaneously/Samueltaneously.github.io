@@ -21,6 +21,16 @@ export const Portfolio = (props) => {
           <p>
             Here are some of the cool projects I've made!
           </p>
+          <div className="social">
+            <ul>
+              <li>
+                <a href={"https://github.com/Samueltaneously"}>
+                  <i className="fa fa-github"></i>
+                </a>
+              </li>
+            </ul>
+            My Github
+          </div>
         </div>
         <div className="row">
           <div className="portfolio-items">
