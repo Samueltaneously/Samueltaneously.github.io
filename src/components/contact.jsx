@@ -10,7 +10,9 @@ const initialState = {
 
 
 export const Contact = (props) => {
+  const formRef = useRef();
   const [{ name, email, message }, setState] = useState(initialState);
+  const [showAlert, setShowAlert] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -18,23 +20,31 @@ export const Contact = (props) => {
   };
   const clearState = () => setState({ ...initialState });
 
-  const formRef = useRef();
 
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
+
     emailjs
       .sendForm("service_m10eznd", "template_g0mrc6l", formRef.current, "WtYjGtrifwLAchbKv")
       .then(
         (result) => {
           console.log(result.text);
           clearState();
+          setShowAlert(true);
         },
         (error) => {
           console.log(error.text);
         }
       );
   };
+
+  const closeAlert = () => {
+    setShowAlert(false);
+  };
+
+  console.log("showAlert:", showAlert);
+
 
 
   return (
@@ -100,6 +110,17 @@ export const Contact = (props) => {
               </form>
             </div>
           </div>
+
+          {/* Popup Alert */}
+          {showAlert && (
+            <div className="popup-alert">
+              <span onClick={closeAlert} className="close-button">
+                &times;
+              </span>
+              <p>Email sent successfully!</p>
+            </div>
+          )}
+
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
               <h3>Info</h3>
