@@ -27,6 +27,7 @@ export const Header = (props) => {
           </div>
         </div>
       </div>
+      <div style={{ backgroundColor: "#232323", color: '#fefefe' }}><h7>Image From: <a href="https://www.hotpot.ai/art-generator">hotpot.ai</a></h7></div>
     </header>
   );
 };

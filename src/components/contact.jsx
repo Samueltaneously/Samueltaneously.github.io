@@ -1,5 +1,5 @@
-import { useState } from "react";
-// import emailjs from "emailjs";
+import { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
 import React from "react";
 
 const initialState = {
@@ -7,6 +7,8 @@ const initialState = {
   email: "",
   message: "",
 };
+
+
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
 
@@ -16,21 +18,25 @@ export const Contact = (props) => {
   };
   const clearState = () => setState({ ...initialState });
 
+  const formRef = useRef();
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
-    // emailjs
-    //   .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_USER_ID")
-    //   .then(
-    //     (result) => {
-    //       console.log(result.text);
-    //       clearState();
-    //     },
-    //     (error) => {
-    //       console.log(error.text);
-    //     }
-    //   );
+    emailjs
+      .sendForm("service_m10eznd", "template_g0mrc6l", formRef.current, "WtYjGtrifwLAchbKv")
+      .then(
+        (result) => {
+          console.log(result.text);
+          clearState();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
+
+
   return (
     <div>
       <div id="contact">
@@ -44,7 +50,7 @@ export const Contact = (props) => {
                   get back to you as soon as possible!
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <form ref={formRef} name="sentMessage" validate onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
