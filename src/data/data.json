@@ -8,11 +8,14 @@
     "paragraph": "The most important thing to know, is that I love developing solutions to problems. I am a first-generation college graduate, of mixed ancestry including AAPI and Native Hawaiian descent. I’m a tinkerer and self-starter who loves making things. I am pursuing a career in tech to follow a longstanding passion for creativity and technology, but primarily to have a meaningful impact on others with similar passions.",
     "Why": [
       "Javascript",
+      "TypeScript",
       "React.js",
       "Redux.js",
       "Node.js"
     ],
     "Why2": [
+      "React Native",
+      "MongoDB",
       "PostgreSQL",
       "Material UI",
       "HTML",
@@ -20,6 +23,12 @@
     ]
   },
   "Portfolio": [
+     {
+      "title": "Mood Music",
+      "largeImage": "img/portfolio/MoodMusicDemo_large.gif",
+      "smallImage": "img/portfolio/MoodMusicDemo_small.gif",
+      "location": "https://github.com/Samueltaneously/mood-music"
+    },
     {
       "title": "Dodgeball Stat Tracker",
       "largeImage": "img/portfolio/DodgeballStatTrackerDemo_large.gif",
