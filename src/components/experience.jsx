@@ -18,8 +18,13 @@ export const Experience = (props) => {
                   </div>
                   <div className="experience-content">
                     <div className="experience-meta">  {d.name} </div>
-                    <p>{d.text}</p>
-                  </div>
+                    {Array.isArray(d.text) ? (
+                      d.text.map((paragraph, index) => (
+                        <p key={index}>{paragraph}</p>
+                      ))
+                    ) : (
+                      <p>{d.text}</p>
+                    )}                  </div>
                 </div>
               </div>
             ))

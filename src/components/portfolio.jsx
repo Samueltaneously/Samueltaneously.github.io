@@ -46,6 +46,9 @@ export const Portfolio = (props) => {
                     smallImage={d.smallImage}
                     onClick={(e) => handleImageClick(e, d.location)}
                   />
+                  <div>
+                    <p>{d.description}</p>
+                  </div>
                 </div>
               ))
               : "Loading..."}
