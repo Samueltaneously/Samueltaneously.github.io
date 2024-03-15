@@ -47,6 +47,7 @@ export const Portfolio = (props) => {
                     onClick={(e) => handleImageClick(e, d.location)}
                   />
                   <div>
+                    <h4><strong>{d.title}</strong></h4>
                     <p>{d.description}</p>
                   </div>
                 </div>

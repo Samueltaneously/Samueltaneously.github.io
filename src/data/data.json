@@ -5,7 +5,8 @@
     "paragraph": "Welcome! Have a look around to learn more about me, and see some of the cool things I've made!"
   },
   "About": {
-    "paragraph": "The most important thing to know, is that I love developing solutions to problems. I am a first-generation college graduate, of mixed ancestry including AAPI and Native Hawaiian descent. I’m a tinkerer and self-starter who loves making things. I am pursuing a career in tech to follow a longstanding passion for creativity and technology, but primarily to have a meaningful impact on others with similar passions.",
+    "intro": "First off, I'm glad you're here! Thank you for stopping by! Feel free to use the contact form below to reach out, I'm always looking to connect and learn from others! Now, let me tell you a bit about me!",
+    "paragraph": "I am a first-generation college graduate, of mixed ancestry including AAPI and Native Hawaiian descent. Whether it's making my own desk, assembling my self-fabricated metal parts to build something else, or building things with code - I’m a tinkerer and self-starter who loves making things. I love reading, and am currently brushing up on Data Structures and Algorithms. I am pursuing a career in tech to follow a longstanding passion for creativity and technology, and generally to just make great things.",
     "Why": [
       "Javascript",
       "TypeScript",
@@ -17,12 +18,30 @@
       "React Native",
       "MongoDB",
       "PostgreSQL",
+      "NextJS"
+    ],
+    "Why3": [
+      "TailwindCSS",
       "Material UI",
       "HTML",
       "CSS"
     ]
   },
   "Portfolio": [
+    {
+      "title": "SW Armada Companion App",
+      "largeImage": "img/portfolio/InProgress_small.jpg",
+      "smallImage": "img/portfolio/InProgress_small.jpg",
+      "location": "https://samueltaneously.github.io/",
+      "description": "React Native | TypeScript | TailwindCSS | SQLite"
+    },
+    {
+      "title": "Theatre Piece Promotional Website",
+      "largeImage": "img/portfolio/InProgress_small.jpg",
+      "smallImage": "img/portfolio/InProgress_small.jpg",
+      "location": "https://samueltaneously.github.io/",
+      "description": "NextJS | TypeScript | TailwindCSS"
+    },
     {
       "title": "Mood Music",
       "largeImage": "img/portfolio/MoodMusicDemo_large.gif",
@@ -47,6 +66,16 @@
   ],
   "Experience": [
     {
+      "img": "img/experiences/Freelance.png",
+      "text": [
+        "Notable Projects:",
+        "● SW Armada Companion Mobile App",
+        "● Mood Music: Mobile App For Music Categorization",
+        "● Musical Theater Piece, Promotional Website"
+      ],
+      "name": "Freelance, Full-Stack Software Engineer (Present) ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
+    },
+    {
       "img": "img/experiences/PrimeLogo.png",
       "text": [
         "✔ Developed and deployed full-stack web applications, with modern back-end and front-end technologies for state management and data storage & retrieval.",
@@ -65,7 +94,7 @@
     },
     {
       "img": "img/experiences/UofM.jpg",
-      "text": "Concentration on political theory, public policy, and quantitative analysis. Additional study of leadership methods, practice, and psychology.",
+      "text": "Concentration on quantitative analysis, public policy, and political theory. Additional study of leadership methods, practice, and psychology.",
       "name": "University of Minnesota, Bachelor of Arts (2014) ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
     }
   ],
