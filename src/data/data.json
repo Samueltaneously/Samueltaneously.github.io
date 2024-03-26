@@ -37,8 +37,8 @@
     },
     {
       "title": "Theatre Piece Promotional Website",
-      "largeImage": "img/portfolio/SunwatcherDemo_small.jpg",
-      "smallImage": "img/portfolio/SunwatcherDemo_small.jpg",
+      "largeImage": "img/portfolio/SunwatcherDemo_small.gif",
+      "smallImage": "img/portfolio/SunwatcherDemo_small.gif",
       "location": "https://sunwatchermusical.com",
       "description": "NextJS | TypeScript | TailwindCSS"
     },
