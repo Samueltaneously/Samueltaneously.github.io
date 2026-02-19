@@ -1,30 +1,33 @@
 {
   "Header": {
-    "title": "Samuel Hali'a Nelson",
+    "title": "Samuel H. Nelson",
     "role": "Full-Stack Software Engineer",
     "paragraph": "Welcome! Have a look around to learn more about me, and see some of the cool things I've made!"
   },
   "About": {
-    "intro": "First off, I'm glad you're here! Thank you for stopping by! Feel free to use the contact form below to reach out, I'm always looking to connect and learn from others! Now, let me tell you a bit about me!",
-    "paragraph": "I am a first-generation college graduate, of mixed ancestry including AAPI and Native Hawaiian descent. Whether it's making my own desk, assembling my self-fabricated metal parts to build something else, or building things with code - I’m a tinkerer and self-starter who loves making things. I love reading, and am currently brushing up on Data Structures and Algorithms. I am pursuing a career in tech to follow a longstanding passion for creativity and technology, and generally to just make great things.",
+    "intro": "Hi! I’m excited you’re here. I’m always looking to connect with others in tech, so feel free to reach out!",
+    "paragraph": "I'm a first-generation college graduate with AAPI and Native Hawaiian heritage. I'm a natural problem-solver and maker. Whether it’s assembling self-fabricated metal parts or building full-stack web applications. I enjoy learning and am actively expanding my knowledge in Data Structures, Algorithms, and modern web technologies. I’m pursuing a career in tech to combine creativity and technical skill to build impactful, well-crafted software.",
     "Why": [
       "JavaScript",
       "TypeScript",
-      "React.js",
-      "Redux.js",
-      "Node.js"
+      "C",
+      "React",
+      "React Native",
+      "NextJS"
     ],
     "Why2": [
-      "React Native",
-      "MongoDB",
+      "Node",
+      "Go",
+      "SQLite",
       "PostgreSQL",
-      "NextJS"
+      "MongoDB"
     ],
     "Why3": [
       "TailwindCSS",
       "Material UI",
-      "HTML",
-      "CSS"
+      "Figma",
+      "Git",
+      "Postman"
     ]
   },
   "Portfolio": [

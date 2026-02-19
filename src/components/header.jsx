@@ -1,9 +1,11 @@
 import React from "react";
+import { WaveBackground } from "./WaveBackground";
 
 export const Header = (props) => {
   return (
     <header id="header">
       <div className="intro">
+        <WaveBackground />
         <div className="overlay">
           <div className="container">
             <div className="row">
@@ -27,7 +29,7 @@ export const Header = (props) => {
           </div>
         </div>
       </div>
-      <div style={{ backgroundColor: "#232323", color: '#fefefe' }}><h7>Image From: <a href="https://www.hotpot.ai/art-generator">hotpot.ai</a></h7></div>
+      {/* <div style={{ backgroundColor: "#232323", color: '#fefefe' }}><h7>Image From: <a href="https://www.hotpot.ai/art-generator">hotpot.ai</a></h7></div> */}
     </header>
   );
 };
