@@ -32,28 +32,26 @@ export const Portfolio = (props) => {
             My Github
           </div>
         </div>
-        <div className="row">
-          <div className="portfolio-items">
-            {props.data
-              ? props.data.map((d, i) => (
-                <div
-                  key={`${d.title}-${i}`}
-                  className="col-sm-6 col-md-4 col-lg-4"
-                >
-                  <Image
-                    title={d.title}
-                    largeImage={d.largeImage}
-                    smallImage={d.smallImage}
-                    onClick={(e) => handleImageClick(e, d.location)}
-                  />
-                  <div>
-                    <h4><strong>{d.title}</strong></h4>
-                    <p>{d.description}</p>
-                  </div>
+        <div className="row justify-content-center">
+          {props.data
+            ? props.data.map((d, i) => (
+              <div
+                key={`${d.title}-${i}`}
+                className="col-sm-6 col-md-4 col-lg-4 mb-4"
+              >
+                <Image
+                  title={d.title}
+                  largeImage={d.largeImage}
+                  smallImage={d.smallImage}
+                  onClick={(e) => handleImageClick(e, d.location)}
+                />
+                <div>
+                  <h4><strong>{d.title}</strong></h4>
+                  <p>{d.description}</p>
                 </div>
-              ))
-              : "Loading..."}
-          </div>
+              </div>
+            ))
+            : "Loading..."}
         </div>
       </div>
     </div>

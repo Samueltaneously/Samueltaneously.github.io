@@ -83,6 +83,17 @@ hr {
   border: 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 /* Navigation */
 #menu {
   padding: 15px;
@@ -235,6 +246,20 @@ a:focus,
   outline-offset: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Header Section */
 /* .intro {
   display: table;
@@ -307,6 +332,20 @@ header .intro-text {
   text-align: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* About Section */
 #about {
   padding: 100px 0;
@@ -368,9 +407,23 @@ header .intro-text {
   margin: 30px 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Portfolio Section */
 #portfolio {
-  padding: 100px 0;
+  padding: 130px 0;
   color: #fff;
   background: #232323;
 }
@@ -386,6 +439,49 @@ header .intro-text {
 #portfolio h2::after {
   width: 160px;
   margin-left: -80px;
+}
+
+#portfolio h4 {
+  margin-top: 18px;
+  margin-bottom: 8px;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+#portfolio p {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 14px;
+}
+
+#portfolio .row>[class*="col-"] {
+  padding: 25px;
+}
+
+#portfolio .row>[class*="col-"]>div {
+  border-radius: 12px;
+  transition: all 0.35s ease;
+}
+
+#portfolio .row>[class*="col-"]:hover>div {
+  background: rgba(255, 255, 255, 0.06);
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+  padding: 1px;
+  border-radius: 10px;
+}
+
+#portfolio img {
+  border-radius: 10px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* .portfolio-item img {
+  margin-bottom: 10px;
+} */
+
+#portfolio .row>[class*="col-"]:hover img {
+  transform: scale(1.03);
+  box-shadow: 0 15px 35px rgba(92, 169, 251, 0.25);
 }
 
 .portfolio-item {
@@ -465,6 +561,26 @@ header .intro-text {
   background: #fff;
 }
 
+#portfolio .hover-bg {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Experience Section */
 #experience {
   padding: 90px 0;
@@ -521,6 +637,19 @@ header .intro-text {
   font-weight: 600;
   color: #666;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Contact Section */
 #contact {
@@ -724,4 +853,29 @@ label {
   #about img {
     margin: 50px 0;
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* F I X E S */
+
+/* Center incomplete rows in Bootstrap 3 */
+#portfolio .row {
+  text-align: center;
+}
+
+#portfolio .row>[class*="col-"] {
+  float: none;
+  display: inline-block;
+  vertical-align: top;
 }
