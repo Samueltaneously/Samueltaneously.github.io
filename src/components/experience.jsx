@@ -18,10 +18,24 @@ export const Experience = (props) => {
                   </div>
                   <div className="experience-content">
                     <div className="experience-meta">  {d.name} </div>
+                    <br />
                     {Array.isArray(d.text) ? (
-                      d.text.map((paragraph, index) => (
-                        <p key={index}>{paragraph}</p>
-                      ))
+                      d.text.map((paragraph, index) => {
+                        if (paragraph === "---BREAK---") {
+                          return <br key={index} />;
+                        }
+
+                        const hasBullet = paragraph.includes("∙");
+
+                        return (
+                          <p
+                            key={index}
+                            className={hasBullet ? "no-margin" : ""}
+                          >
+                            {paragraph}
+                          </p>
+                        );
+                      })
                     ) : (
                       <p>{d.text}</p>
                     )}                  </div>

@@ -71,34 +71,39 @@
     {
       "img": "img/experiences/Freelance.png",
       "text": [
+        "✔ Delivered custom web solutions for non technical clients, taking features from concept to production while maintaining seamless user experiences",
+        "✔ CS50 Computer Science Certification - In Progress",
+        "---BREAK---",
         "Notable Projects:",
-        "● Secured Notes Mobile App",
-        "● Mood Music: Mobile App For Music Categorization",
-        "● Musical Theater Piece, Promotional Website"
+        "∙ Secured Notes Mobile App",
+        "∙ Mood Music: Mobile App For Music Categorization",
+        "∙ Musical Theater Piece, Promotional Website"
       ],
-      "name": "Freelance, Full-Stack Software Engineer (Present) ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
+      "name": "Freelance, Full-Stack Software Engineer (Present)"
     },
     {
       "img": "img/experiences/PrimeLogo.png",
       "text": [
-        "✔ Developed and deployed full-stack web applications, with modern back-end and front-end technologies for state management and data storage & retrieval.",
-        "✔ Leveraged Agile methodology framework and pair programming sessions, fostering teamwork and problem-solving skills throughout the full software development lifecycle (SDLC).",
-        "✔ Designed and utilized RESTful APIs for data communication in full-stack applications."
+        "✔ Built out prototype, game & tournament stat tracker app on behalf of USA Dodgeball",
+        "✔ Developed full-stack web apps with modern technologies",
+        "✔ Applied Agile methodology across the entire software development lifecycle (SDLC)",
+        "✔ Designed and implemented RESTful APIs for data communication in full-stack applications"
       ],
-      "name": "Prime Digital Academy, Full-Stack Software Engineering Certification (2023) ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
+      "name": "Prime Digital Academy, Full-Stack Software Engineering Certification (2023)"
     },
     {
       "img": "img/experiences/Wells.jpg",
       "text": [
-        "✔ Utilized excel and proprietary database, ran daily analytics reports, analyzed the data of thousands of client accounts, reviewed mortgage collateral documents, and coordinated with internal Wells Fargo teams.",
-        "✔ Cultivated and strengthened working relationships with business clients of Wells Fargo, both small businesses and large corporate clients."
+        "✔ Cultivated and strengthened relationships with both small business and large corporate clients, communicating insights and resolving data issues with clear, client-focused solutions",
+        "✔ Leveraged Excel and proprietary databases to generate and analyze daily analytics reports on thousands of client accounts, identifying trends and ensuring data accuracy for operational decision-making",
+        "✔ Collaborated with internal stakeholders across business units to validate data, troubleshoot discrepancies, and ensure compliance with operational policies and reporting standards"
       ],
-      "name": "Wells Fargo, Account Associate (2018-2022) ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
+      "name": "Wells Fargo, Account Associate (2018-2022)"
     },
     {
       "img": "img/experiences/UofM.jpg",
       "text": "Concentration on quantitative analysis, public policy, and political theory. Additional study of leadership methods, practice, and psychology.",
-      "name": "University of Minnesota, Bachelor of Arts (2014) ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
+      "name": "University of Minnesota, Bachelor of Arts (2014)"
     }
   ],
   "Contact": {
