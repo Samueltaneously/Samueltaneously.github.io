@@ -626,9 +626,13 @@ header .intro-text {
 }
 
 .experience-content p {
-  margin-bottom: 0;
+  margin-bottom: 12px;
   font-size: 14px;
   font-style: italic;
+}
+
+.experience-content p.no-margin {
+  margin-bottom: 5px;
 }
 
 .experience-meta {
