@@ -100,11 +100,20 @@ hr {
   .intro p {
     font-size: 16px;
   }
+
+  #menu {
+    padding: 4px 0;
+  }
+
+  #menu .navbar-brand {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
 }
 
 section,
 header {
-  scroll-margin-top: 80px;
+  scroll-margin-top: 70px;
 }
 
 
@@ -118,8 +127,8 @@ header {
 
 /* Navigation */
 #menu {
-  padding: 15px;
-  transition: all 0.8s;
+  padding: 8px 0;
+  transition: all 0.4s ease;
 }
 
 #menu.navbar-default {
@@ -937,4 +946,17 @@ label {
   float: none;
   display: inline-block;
   vertical-align: top;
+}
+
+
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+#header,
+.intro {
+  width: 100%;
+  overflow: hidden;
 }
