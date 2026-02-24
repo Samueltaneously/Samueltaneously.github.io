@@ -114,6 +114,32 @@ hr {
   text-transform: uppercase;
 }
 
+#menu a.navbar-brand .brand-highlight {
+  font-family: "Raleway", sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  transition: color 0.3s ease, transform 0.3s ease;
+  position: relative;
+}
+
+#menu a.navbar-brand:hover .brand-highlight {
+  color: #5a2dae;
+  transform: scale(1.1);
+}
+
+.brand-highlight::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 4px;
+  /* thickness of underline */
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  border-radius: 2px;
+}
+
+
 #menu.navbar-default .navbar-nav>li>a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
