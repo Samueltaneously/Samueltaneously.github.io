@@ -7,6 +7,11 @@ html {
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 h2,
@@ -83,7 +88,24 @@ hr {
   border: 0;
 }
 
+@media (max-width: 768px) {
+  .intro h1 {
+    font-size: 42px;
+  }
 
+  .intro h2 {
+    font-size: 22px;
+  }
+
+  .intro p {
+    font-size: 16px;
+  }
+}
+
+section,
+header {
+  scroll-margin-top: 80px;
+}
 
 
 
@@ -302,7 +324,11 @@ a:focus,
 
 .intro {
   position: relative;
-  height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   overflow: hidden;
   background: #05070c;
 }
@@ -313,6 +339,8 @@ a:focus,
 } */
 
 .intro canvas {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
 }
@@ -352,10 +380,11 @@ a:focus,
   margin-bottom: 60px;
 }
 
-header .intro-text {
-  padding-top: 350px;
-  padding-bottom: 200px;
-  text-align: center;
+.intro-text {
+  position: relative;
+  z-index: 2;
+  padding: 0 20px;
+  max-width: 900px;
 }
 
 
