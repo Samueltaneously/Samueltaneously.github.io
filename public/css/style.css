@@ -440,6 +440,8 @@ a:focus,
   padding: 100px 0;
   color: #fff;
   background: #232323;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 #about h3 {
@@ -515,6 +517,8 @@ a:focus,
   padding: 130px 0;
   color: #fff;
   background: #232323;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 #portfolio h2 {
@@ -674,6 +678,8 @@ a:focus,
 #experience {
   padding: 90px 0;
   background: #f6f6f6;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 #experience h2 {
@@ -749,6 +755,8 @@ a:focus,
   padding: 115px 0 65px;
   background: linear-gradient(to right, #232323 0%, #434343 100%);
   color: rgba(255, 255, 255, 0.75);
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 #contact .section-title {
