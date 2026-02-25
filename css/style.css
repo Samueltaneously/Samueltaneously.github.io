@@ -109,6 +109,7 @@ hr {
     padding-top: 8px;
     padding-bottom: 8px;
     font-size: 16px;
+    white-space: nowrap;
   }
 
   #menu .navbar-brand .brand-highlight {
@@ -705,14 +706,20 @@ a:focus,
 .experience-image {
   float: left;
   margin-right: 15px;
-}
-
-.experience-image,
-.experience-image img {
-  display: block;
   width: 64px;
   height: 64px;
+  border: 2px solid #5ca9fb;
   border-radius: 50%;
+  overflow: hidden;
+  /* Important */
+}
+
+.experience-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Keeps image proportional */
+  display: block;
 }
 
 .experience-content {
@@ -931,10 +938,22 @@ label {
   color: #fff;
 }
 
+
+
+
+
+
+
+
+
+
+
 /* Footer Section*/
 #footer {
   background: #f6f6f6;
   padding: 30px 0;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 #footer p {
