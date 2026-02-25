@@ -1,17 +1,13 @@
-body,
-html {
+html,
+body {
   font-family: "Open Sans", sans-serif;
-  text-rendering: optimizeLegibility !important;
-  -webkit-font-smoothing: antialiased !important;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
   color: #777;
   font-weight: 400;
-  width: 100% !important;
-  height: 100% !important;
   overflow-x: hidden;
-}
-
-html {
   scroll-behavior: smooth;
+  max-width: 100%;
 }
 
 h2,
@@ -69,13 +65,8 @@ a:focus {
 ul,
 ol {
   list-style: none;
-}
-
-ul,
-ol {
   padding: 0;
-  webkit-padding: 0;
-  moz-padding: 0;
+  margin: 0;
 }
 
 hr {
@@ -140,6 +131,11 @@ hr {
   }
 
 
+
+  #about img {
+    margin: 50px 0;
+  }
+
   /* Makes container a flexbox to wrap items into 2 columns */
   #about .list-style {
     display: flex;
@@ -158,30 +154,25 @@ hr {
     margin-bottom: 0;
   }
 
-  /* Remove extra spacing inside each list */
+  /* Removes extra space inside each list */
   #about .about-text li {
     margin-bottom: 6px;
   }
 
-  /* Two-column grid for mobile merged list */
+  /* Two column grid for mobile merged list */
   #about .mobile-merged {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    /* row gap & column gap */
     gap: 6px 20px;
-    /* row gap | column gap */
     margin: 0;
     padding: 0;
     list-style: none;
   }
 
   #about .mobile-merged li {
+    /* space between items */
     margin: 0 0 6px 6px;
-    /* spacing between items */
-  }
-
-  /* Keep li spacing inside desktop columns (they won't exist on mobile now) */
-  #about .about-text li {
-    margin-bottom: 6px;
   }
 
 }
@@ -1006,12 +997,6 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
-@media (max-width: 768px) {
-  #about img {
-    margin: 50px 0;
-  }
-}
-
 
 
 
@@ -1037,12 +1022,6 @@ label {
   vertical-align: top;
 }
 
-
-html,
-body {
-  overflow-x: hidden;
-  max-width: 100%;
-}
 
 #header,
 .intro {

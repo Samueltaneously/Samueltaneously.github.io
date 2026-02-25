@@ -176,7 +176,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            © 2026 Samuel H. Nelson. Built and designed by Samuel H. Nelson.
+            <span><strong>© 2026 Samuel H. Nelson</strong></span>. Built and designed by Samuel H. Nelson.
           </p>
         </div>
       </div>
