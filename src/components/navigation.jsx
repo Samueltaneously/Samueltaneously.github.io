@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 
 export const Navigation = () => {
   const [active, setActive] = useState("header");
+  const navRef = useRef(null);
 
   const sections = ["header", "about", "portfolio", "experience", "contact"];
 
@@ -28,6 +29,26 @@ export const Navigation = () => {
     return () => observer.disconnect();
   }, []);
 
+  // closes navbar when tapping outside the navbar
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        navRef.current &&
+        !navRef.current.contains(event.target)
+      ) {
+        if (window.$) {
+          window.$(".navbar-collapse").collapse("hide");
+        }
+      }
+    };
+
+    document.addEventListener("click", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
+  }, []);
+
   const handleScroll = (e, id) => {
     e.preventDefault();
 
@@ -45,7 +66,7 @@ export const Navigation = () => {
   };
 
   return (
-    <nav id="menu" className="navbar navbar-default navbar-fixed-top">
+    <nav id="menu" ref={navRef} className="navbar navbar-default navbar-fixed-top">
       <div className="container">
         <div className="navbar-header">
           <button
