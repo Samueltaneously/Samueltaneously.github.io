@@ -22,12 +22,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: 20
+          node-version: 24
           cache: npm
 
       - name: Install dependencies
@@ -35,6 +35,13 @@ jobs:
 
       - name: Build Next.js static export
         run: npm run build
+
+      - name: Verify static export
+        run: |
+          if [ ! -f out/index.html ]; then
+            echo "Error: out/index.html was not generated."
+            exit 1
+          fi
 
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
